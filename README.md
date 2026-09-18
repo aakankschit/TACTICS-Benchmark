@@ -126,7 +126,8 @@ Each library's `MANIFEST.md` carries the detail.
 ## Provenance
 
 Scores were produced with OMEGA 6.1.1.1 and FRED/HYBRID 4.3.4.1. The docking
-parameters are recorded in each docking library's manifest. The four reaction SMARTS
-for the docking libraries were validated against their reagents when this repository
-was assembled: all 24 reactions parse, match their component counts, and produce
-products.
+parameters are recorded in each docking library's manifest.
+
+`reactions.csv` is a verbatim copy of the canonical file used for the docking
+manuscript. All 24 reactions were validated against the reagents shipped here: each
+one parses, matches its component count, and produces products.
