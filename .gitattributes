@@ -8,5 +8,8 @@
 *.smi  text
 *.pdb  text
 *.sdf  text
-*.csv  text
 *.md   text
+
+# reactions.csv is a verbatim mirror of the canonical source: store the bytes
+# exactly as they are, including its CRLF line endings.
+*.csv  -text
