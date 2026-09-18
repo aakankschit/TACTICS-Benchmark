@@ -1,0 +1,12 @@
+# Reference score tables: large binary, tracked with Git LFS.
+*.parquet filter=lfs diff=lfs merge=lfs -text
+
+# OpenEye design units: binary.
+*.oedu filter=lfs diff=lfs merge=lfs -text
+
+# Text data kept in plain git so it stays diffable and greppable.
+*.smi  text
+*.pdb  text
+*.sdf  text
+*.csv  text
+*.md   text
